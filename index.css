@@ -1,19 +1,152 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+article > * + * {
+    margin-top: 1em;
+}
+
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
 .alert_down{
     position: fixed;
     bottom: 0;
 ;
 }
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+    background-color: #f5f5f6;
+}
+.aut{
+    font-size: 1.4vh;
+
+}
+.msg1{
+    text-align: center;
+    font-family: 'Stalinist One', cursive;
+
+}
+.mmm{
+    font-size: 2.7vh;
+    width:38%;
+    text-align: justify
+}
+.text_mmm{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size:1.8vh;
+    padding-top: 15px;
+
+}
+
+.titl{
+    font-size: 4vh;
+    text-align: left;
+    padding-left: 10%;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-weight: 300;
+}
 .div_block{
     display: block;
-    text-align: center;
+    width:90%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
-.alerd{
+.fototext{
+    font-size: 10px;
+}
+.fot{
+    text-align: right;
+    font-size: 8px
+    }
+.text_block
+    {
+
+    font-size: 12px;
+    text-align: justify
+    }
+.al{
     height: 10000px;
 }
-.a1{
-    background-color: black;
-    color:white ;
+.blk{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 12px;
 }
-.novis {
-    display: none;
+.alert-primary {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transform: scale(0);
+    transition: 0.34s linear;
+}
+
+.alert-primary.add {
+    transform: scale(1);
+}
+.alin{
+    background-color: red;
+    color: #f5f5f6;
+}
+.alert-danger {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transform: scale(0);
+    transition: 0.34s linear;
+}
+.alert-danger.add {
+    transform: scale(1);
+}
+.new_dr{
+    font-size: 12px;
+}
+.btm{
+    text-align: center;
+    font-size: 12px;
 }
