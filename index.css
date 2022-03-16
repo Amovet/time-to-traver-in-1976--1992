@@ -1,0 +1,16 @@
+.alert_down{
+    position: fixed;
+    bottom: 0;
+;
+}
+.div_block{
+    display: block;
+    text-align: center;
+}
+.alerd{
+    height: 10000px;
+}
+.a1{
+    background-color: black;
+    color:white ;
+}
