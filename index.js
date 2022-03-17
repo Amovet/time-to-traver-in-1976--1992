@@ -70,7 +70,7 @@ function timer(){
        </div>
     </div>
      <br>
-    <div class="div_block btm">не теряй не секунды!</div>`
+    <div class="div_block btm">не теряй ни секунды!</div>`
     sc.after(d);
     let date=new Date('march 18 2022 00:00:00')
     function counts(){
